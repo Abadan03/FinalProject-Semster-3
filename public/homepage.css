@@ -1,0 +1,31 @@
+* {
+    margin: 0 auto;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-wrap: wrap;
+    /* column-gap: 40px; */
+    row-gap: 20px;
+    max-width: 900px;
+}
+
+.menu a {
+    color: white;
+    /* margin-right: 10px; */
+    margin: 10px 10px 10px 10px;
+    /* margin-left: 10px; */
+    text-decoration: none;
+    font-size: 30px;
+}
